@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre el producto</title>
+</head>
+<body>
+    <h2>Información sobre el producto: </h2>
+    <form method="get" action=".">
+    <fieldset>
+        <legend>Datos básicos</legend>
+        <form method="get">
+            <p>Nombre<br><input type="text"  name="nombre"  title="nombre" ></p>
+            <p>Descripción<br>
+            <textarea name="Descripción" cols="40" rows="6" maxlength="100"></textarea></p>
+            <p>Foto <input type="file" name="Seleccionar archivo" ></p>
+            <input type="checkbox" name="añadir" value="añadir">Añadir contador de visitas
+
+        </form>
+ </fieldset>
+
+    <fieldset>
+        <legend>Datos económicos</legend>
+        <form method="get" action="." >
+        <p>Precio <input type="text" name="precio"  title="precio" > €
+            &emsp;
+        Impuestos <select name="impuestos " >
+            <option value="4%">4%</option>
+            <option value="10%">10%</option>
+            <option value="21%">21%</option>
+            </select>
+        </p>
+        <p>Promoción<br>
+        <input type="radio" name="promocion" value="Ninguno">Ninguno<br>
+         <input type="radio" name="promocion" value="Transporte gratuito">Transporte gratuito<br>
+         <input type="radio" name="promocion" value="Descuento">Descuento 5%<br>
+        </p>
+
+        <input type="submit" value="Enviar" >
+    </form>
+    </fieldset>
+    
+  
+    
+</body>
+</html>
