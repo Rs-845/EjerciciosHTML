@@ -1,0 +1,25 @@
+
+body{
+    background-color: black;
+    color: yellow;
+    font-family: arial;
+    text-align: justify;
+    margin: 1,27cm;
+    
+}
+
+h1{
+    background-color: aqua;
+    color: orange;
+    font-family: arial;
+}
+
+h2{
+    color: white;
+    font-family: arial;
+}
+
+#azul{
+    color: blue;
+    text-align: right;
+}

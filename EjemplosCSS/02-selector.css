@@ -1,0 +1,13 @@
+p span{
+    /*solo estaran en rojo aquellas palabras con span que esten dentro de p
+    
+    */
+    color: red;
+}
+
+/* Para parrafos adyacentes a otros
+*/
+p+p{
+    font-size: large;
+    background-color: aquamarine;
+}

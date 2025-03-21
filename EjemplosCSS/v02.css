@@ -1,0 +1,37 @@
+
+
+
+        p {background-color: aquamarine;
+            color: brown;
+        }
+        body{background-color: rgb(184, 227, 238);}
+        /*
+        La almuhadilla permite seleccionar por identificador,
+         en este caso resalta las palabras dentro de span con el identificador
+         resaltar1. 
+         El identificador tiene más prioridad que la clase
+
+ 
+        */
+        #resaltar1{
+            background-color: rgb(177, 218, 66);
+            /*color: blueviolet;*/
+        }
+        /*El punto sirve para seleccionar por clase
+        Entre dos clases si no hay color en idenificador prevalece el último escrito,
+        en este caso seria el morado de tipo2
+
+        */
+        .tipo1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: darkcyan;
+        }
+
+        .tipo2 {
+            font-size: 30px;
+            font-weight: lighter;
+            color: rgb(71, 9, 95);
+        }
+
+        

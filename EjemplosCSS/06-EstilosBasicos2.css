@@ -1,0 +1,27 @@
+table{
+    background-image: url("https://picsum.photos/id/1/200/300");  /* Página para ver las dimensiones de una foto y rellenar la tabla: (https://picsum.photos/images)*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; /* La imagen se extiende hasta alcanzar el tamaño de la*/
+
+}
+#ultimoparrafo{
+background-color: aqua;
+height: 100px;/* Altura componente*/
+line-height: 130px; /* Altura texto*/
+vertical-align: middle; /* Alinieado vertical*/
+border-width:2px;
+border-color: black;
+border-style: double;
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+border:5px double;
+}
+
+#Ultimisimo{
+
+background-color: rgb(176, 238, 179);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+
+
+}

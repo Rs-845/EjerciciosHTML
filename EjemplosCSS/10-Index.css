@@ -1,0 +1,30 @@
+.zonasColor{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+/* la posición absoluta*/
+#panelesColor{
+    float: left;
+}
+
+#div1{
+    left: 10px;
+    background-color: aqua;
+    top: 10px;
+}
+
+#div2{
+    left: 20px;
+    background-color: rgb(153, 178, 231);
+    top: 30px;
+
+}
+
+#div3{
+    left: 30px;
+    background-color: rgb(198, 230, 245);
+    top: 50px;
+
+}

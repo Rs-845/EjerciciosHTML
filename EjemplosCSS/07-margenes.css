@@ -1,0 +1,52 @@
+#parrafo1{
+    border: dotted 3px red;
+    background-color: rgb(158, 231, 231);
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+    margin-bottom: 60px; /* Separación de parrafos*/
+}
+
+p:last-of-type{  /* Coloca un border a la última linea de parrafo*/
+    border: solid 3px black;
+}
+
+#nombre{
+    margin: auto; /* Centra el componente, no el texto*/
+    width: 30%;
+    border: solid 2px;
+    text-align: center; /* Centra texto*/
+}
+
+#imagen1{
+ margin-left: 25%;
+ width: 50%;
+
+}
+
+#imagen2{
+    display: block;
+    margin: auto;
+}
+
+#imagen3{
+    display: block;
+    margin-left: calc(50% - 100px); 
+}
+
+ 
+
+li{
+list-style-type: none;
+display: inline-block;         /* hace un bloque del tamaño de texto con otros bloques */
+margin: 22px;
+padding: 2px;
+width: 100px;
+text-align: center;
+
+}
+li:hover{
+    background-color: black;
+    color: white;
+   
+}

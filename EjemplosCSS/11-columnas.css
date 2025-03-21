@@ -1,0 +1,4 @@
+p:first-of-type{
+    column-count: 2;
+    /* Coloca dos columnas en el primer parrafo*/
+}

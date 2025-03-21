@@ -1,0 +1,61 @@
+span {
+    color: blue;
+}
+
+p {
+    background-color: #d9e6f0b9;
+
+}
+
+body {
+    background-color: #a1c3dd;
+}
+
+/*Textos
+in, pulgadas ("inches", en inglés). Una pulgada equivale a 2.54 centímetros.
+•	cm, centímetros.
+•	mm, milímetros.
+•	pt, puntos. Un punto equivale a 1 pulgada/72, es decir, unos 0.35 milímetros.
+•	pc, picas. Una p
+*/
+
+p:first-of-type {
+    letter-spacing: 10px;
+    /* Espacio entre letras*/
+
+    text-indent: calc(10%+10px);  /* añade una sangria a la página*/
+    text-shadow: 2px 1px 6px blue; /* Coloca un sombreado al parrafo*/
+
+}
+
+p:hover {
+    word-spacing: 20px; /* Cada vez que nuestro cursor este sobre un parrafo se hara un Espacio entre letras*/
+}
+
+#parrafo2 {
+    text-align: justify;
+}
+
+.miclase {
+    text-decoration: underline line-through;
+    /* texto subrallado para el texto tachado es line throught*/
+    /* se peude meter dos propiedade si se colocan separados por un espacion e blanco*/
+    text-transform: uppercase;
+
+}
+
+p:last-of-type{
+line-height: 40px; /* Altura de la línea*/
+font-size: 20px; /* tamaño de la letra*/
+font-weight: bold; /* parrafo en negrita*/
+font-style: italic;
+font-family:"Rubik Wet Paint", system-ui;
+font-weight: 400;
+font-style: normal;
+font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+

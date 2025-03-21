@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#parrafo1 {
+    margin: 50px;
+    border: 1px solid blue;
+}
+
+#parrafo2 {
+    margin: 10px;
+    border: 4px dotted red;
+}
+
+span{
+    margin: 10px;
+    border: 2px dotted red;   
+}
+
+img{
+    height: 120px;
+    width: 180px;
+}
+
+
+.parrafo4{
+    height: 200px;
+    width: 200px;
+}
+

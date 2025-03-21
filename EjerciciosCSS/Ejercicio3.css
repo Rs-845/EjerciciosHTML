@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(168, 211, 247);
+}
+
+.tipo1{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.tipo2{
+    color: red;
+}
+.materias{
+    
+}
+
+#Fecha{
+    color: yellow;
+}
+
+#titulo2{
+    color: white;
+}
+
+#titulo3{
+    background-color: rgb(79, 169, 238);
+    color: white;
+}

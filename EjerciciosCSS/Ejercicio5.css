@@ -1,0 +1,11 @@
+
+a:hover{   /*  para que al pasar el cursor por el link cambie de color a azul */
+    color: black;
+    background-color: blue;
+}
+a:visited{
+    color: blue
+    }
+a{
+    color: red;
+}

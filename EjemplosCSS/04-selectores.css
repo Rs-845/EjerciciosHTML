@@ -1,0 +1,54 @@
+/* Etiqueta por selectores
+*/
+td[width]{
+    background-color: yellow;
+}
+
+td[width="50%"]{
+   font-size: 50px;
+   background-color: green;
+
+}
+
+td:not([width="50%"]){   /* td:not Marca los que no son del valor entre parentesis */
+    font-style: italic;
+
+
+}
+/*  Estado, si el usuario a pulsado o visitado en el link marcar en x color*/
+a:visited{
+color: red;
+}
+
+a:hover{   /*  para que al pasar el cursor por el link cambie de color a verde */
+    color: green;
+}
+
+a:active{ /*  cuando pulsas cambia de color */
+color: blue;
+}
+
+
+input:focus{  /*  Para los formulario cuando el usuario escriba cambie de color la caja de texto */
+    background-color: yellow;
+    color: red;
+}
+
+p:first-of-type{
+background-color: blue;
+color: white;
+}
+
+p:last-of-type{
+    background-color: green;
+}
+
+p:nth-child(2n+1){  /*  parrafos impares  */
+    background-color: yellow;
+    color: red;
+}
+
+
+span:last-child{
+    font-size: 30px;
+}
